@@ -1,8 +1,2 @@
 #!/bin/bash
-TER=$(echo $WATER | tr water 01234);
-STIR=$(echo $STIR | tr stir. 01234);
-WATER=$((5#$WATER));
-STIR=$((5#$STIR));
-HOLBERTON=$(($WATER+$STIR));
-echo $(printf "%o\n" $HOLBERTON) | tr 01234567 behlnort
-echo $WATER $STIRi
+TER=$(echo $WATER | tr water 0123)
