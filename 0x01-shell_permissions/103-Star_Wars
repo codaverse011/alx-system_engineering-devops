@@ -1,3 +1,2 @@
 #!/bin/bash
-cd ..
-cd alx-system_engineering-devops
+telnet towel.blinkenlights.nl
